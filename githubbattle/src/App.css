@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+
+  padding: 20px;
+  color: black;
+}
+.App-header h1{
+  font:bolder;
+  font-size: 40px;
+}
+
+.App-title {
+  font-size: 1.5em;
+  display: flex;
+  align-content: flex-start;
+  font: bold;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Nav ul{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  list-style: none;
+}
+
+.Nav li {
+  padding: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.battleCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+
+}
+
+.battleBorder{
+  border: 2px solid gray;
+  padding: 20px;
+}
+.battleButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+
+
+}
+.battleResultWinner{
+  display: flex;
+  align-content: flex-basic;
+  flex-direction: row; 
+  
+}
+.battleResultUser{
+  display: flex;
+  align-content: flex-basic;
+  flex-direction: row;
+
+
+}
+.battleResults{
+  display: flex;
+  flex-direction: column;
+}
